@@ -1,0 +1,86 @@
+/*Fixed CSS for Media HTML*/
+
+#background{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	background:Gainsboro; /* Gradient taken from W3Schools.com tutorial */
+    background:-webkit-linear-gradient(Gainsboro,Gray);
+    background:-o-linear-gradient(Gainsboro,Gray);
+    background:-moz-linear-gradient(Gainsboro,Gray);
+    background:linear-gradient(Gainsboro,Gray);
+}
+
+#container{
+ 	width:960px;
+ 	height:100%;
+	margin:0 auto;
+	background-color:Gainsboro;
+}
+				
+header{
+	width:960px;
+	height:110px;
+	margin:0 auto;
+	padding:10px 0px;
+	background-color:LightBlue;
+   	text-align:center;
+}
+
+nav{
+	width:960px;
+	height:100px;
+	margin:0 auto;
+	background-color:LightCyan;
+}
+		
+nav ul{
+	list-style-type:none;
+}
+						
+nav a{
+	float:left;
+	width:145px;
+	height:auto;
+	background-color:LightBlue;
+    color:black;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    margin:0px 15px;
+    padding:15px 0px;
+    position:relative;
+    top:25px;
+}
+		
+nav a:hover{
+	color:black;
+	background-color:#c4e4ed;
+}
+
+nav a:active{
+	color:black;
+	background-color:#9dd2e1;
+}
+
+footer 		{
+	width:960px;
+	height:60px;
+	margin:0 auto;
+	padding:5px 0px;
+	background-color:LightBlue;
+   	text-align:center;
+}
+
+.serif{
+	font-size:20px;
+	line-height:;
+	font-family:Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.sansserif{
+	font-size:20px;
+	line-height:10px;
+	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}

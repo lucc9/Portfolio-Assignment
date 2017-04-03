@@ -1,0 +1,187 @@
+/*Fluid CSS for Index, About, Photography and Design HTML*/
+
+header{
+	width:auto;
+	height:10%;
+	background-color:LightBlue;
+	text-align:center;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+}
+	
+
+nav{
+	background-color:LightCyan;
+	text-align:center;
+	width:auto;
+	height:10%;
+	margin:0;
+	position:fixed;
+	top:10%;
+	left:0;
+	right:0;
+}
+		
+nav ul{
+	list-style-type:none;
+}
+						
+nav a{
+	float:left;
+	width:15%;
+	height:auto;
+	background-color:LightBlue;
+    color:black;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    padding:1%;
+    margin-left:2%;
+}
+
+nav a:hover{
+	color:black;
+	background-color:#c4e4ed;
+}
+
+nav a:active{
+	color:black;
+	background-color:#9dd2e1;
+}
+
+main{
+	width:auto;
+	height:auto;
+	position:fixed;
+	top:20%;
+	left:0;
+	right:0;
+	bottom:5%;
+	background-color:Gainsboro;
+    padding:2%;
+}
+
+a{
+	text-decoration:none;
+}
+
+.content{
+	width:20%;
+	position:absolute;
+	top:20%;
+	margin:2%;
+	border-radius:50%;
+}
+
+.content1{
+	left:0;
+}
+
+.content2{
+	left:25%;
+}
+
+.content3{
+	right:26%;
+}
+
+.content4{
+	right:1%;
+}
+
+aside{
+	width:40%;
+	height:60%;
+	position:fixed;
+	bottom:8%;
+	text-align:center;
+}
+
+aside img{
+	width:45%;
+	height:auto;
+	border-radius:50%;
+}
+
+.asideleft{
+	left:10%;
+}
+
+.asideright{
+	right:10%;
+}
+
+article{
+	width:30%;
+	height:60%;
+	position:fixed;
+	bottom:8%;
+	text-align:center;
+}
+
+article img{
+	width:auto;
+	height:45%;
+	float:none;
+	border-radius:0%;
+}
+
+.articleleft{
+	left:5%;
+}
+
+.articlecenter{
+	left:35%;
+}
+
+.articleright{
+	right:5%;
+}
+
+section{
+	width:40%;
+	height:60%;
+	position:fixed;
+	bottom:8%;
+	text-align:center;
+}
+
+section img{
+	width:auto;
+	height:45%;
+	float:none;
+	border-radius:0%;
+}
+
+.sectionleft{
+	left:10%;
+}
+
+.sectionright{
+	right:10%;
+}
+
+footer{
+	width:auto;
+	height:5%;
+	background-color:LightBlue;
+   	text-align:center;
+   	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:1;
+}
+
+.serif{
+	font-size:20px;
+	font-family:Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.sansserif{
+	font-size:20px;
+	line-height:16px;
+	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
